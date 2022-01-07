@@ -1,0 +1,64 @@
+@import url('https://fonts.goggleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+        padding:0 ;
+    font-family: "Poppins",sans-serif;
+    
+
+}
+body{
+    background-image: linear-gradient(to right, #fffbd5, #b20a2c);
+}
+.calculator{
+    width: 350px;
+    height: 480px;
+    margin: 65px auto;
+    background: white;
+    border-radius: 15px;
+    box-shadow:0 10px 15px rgba(0,0,0,0.1);
+
+   
+}
+#display{
+    border:none;
+    outline: none;
+    width: 330px;
+    height: 80px;
+    color: gray;
+    font-size: 58px;
+    font-weight: 700;
+    padding: 10px;
+text-align: right;
+background: tomato;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+}
+.buttons-box{
+    margin: 35px 15px;
+}
+.btn{
+    width: 60px;
+    height: 70px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    color: gray;
+    cursor: pointer;
+    font-size: 28px;
+    line-height: 70px;
+    border-radius: 100px;
+    background:mediumaquamarine;
+}
+.btn:hover{
+background: rgba(0,0,0,0.1);
+}
+.cbtn, .cbtn:hover{
+    background: red;
+color: white;
+}
+.mbtn, .mbtn:hover{
+    background: BLACK;
+    color: white;
+}
+
+ 
